@@ -1,0 +1,154 @@
+.services
+{
+    margin-top: 15rem;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 2rem;
+    margin-left: 6.8rem ;
+    margin-right:6.8rem ;
+    color: rgb(84, 83, 83);
+}
+.services .subServices
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.subServices h3{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.subServices p{
+    font-size: 1.5rem;
+
+
+}
+
+.servicesCard
+{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 0.5rem;
+  /* gap: 0.5rem; 
+  margin: 2rem auto; */
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.7rem;
+  
+   
+ 
+}
+.subCard
+{
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 229, 229);
+    width: 90%;
+    min-height: 200px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
+    padding-top: 4.3rem;
+    padding-bottom: 3.9rem;
+    padding-left: 1.9rem;
+    padding-right: 1.9rem;
+    align-items: center;
+    justify-content: center;
+     display: flex;
+     flex-direction: column;
+     gap: 0.1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+}
+.subCard:hover{
+    border: 1px solid rgb(57, 172, 57); 
+}
+.subCard:hover h3{
+    color:rgb(57, 172, 57); 
+}
+.subCard .logo
+{
+    color: rgb(255, 255, 255);
+   background-color: rgb(57, 172, 57); 
+    align-items: center;
+    justify-content: center;
+   padding: 1.7rem;
+   border-radius: 1rem;
+   margin-bottom: 2rem;
+
+    
+}
+.subCard h3{
+    font-size: 2.7rem;
+     font-weight: bold;
+    align-items: center;
+}
+.subCard p{
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:768px)
+{
+    .services
+{
+    margin-top: 15rem;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 2rem;
+    margin-left: 3rem ;
+    margin-right:3rem ;
+    color: rgb(84, 83, 83);
+}
+
+    .servicesCard
+{
+   display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  gap: 0.5rem;
+  /* gap: 0.5rem; 
+  margin: 2rem auto; */
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.7rem;
+
+}
+.subCard
+{
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 229, 229);
+    width: 100%;
+    min-height: 180px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
+    padding-top: 4.3rem;
+    padding-bottom: 3.9rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+   
+     display: flex;
+     flex-direction: column;
+     gap: 0.1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+
+}
+.subCard p{
+    font-size: 1.3rem;
+    align-items: left;
+    /* justify-content: center; */
+
+}
+.subCard h3{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+}

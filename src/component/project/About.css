@@ -1,0 +1,171 @@
+.about
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 10rem;
+     color: rgb(69, 68, 68);
+   
+    
+}
+.sub-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     color: rgb(69, 68, 68);
+   
+}
+.sub-about h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.sub-about p{
+    font-size: 1.5rem;
+    
+} 
+.picAndContent
+{
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 3rem;
+    margin-left: 0.5rem;  
+    
+    
+}
+.picAndContent img{
+ 
+    margin-top: 2.3rem;
+    object-fit: cover;
+    box-sizing: border-box;
+ height: 500px;
+ max-width: 1000px;
+ border-radius: 1rem;
+}
+.picAndContent .content
+{
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+    color: rgb(69, 68, 68);
+    box-sizing: content-box;
+    border: 1px solid white;
+    padding: 4rem;
+}
+.content h3{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.content p{
+    font-size: 2rem;
+   
+}
+.content ul {
+      /* padding-left: 1.5rem; */
+      list-style: none;
+      font-size: 1.7rem;
+}
+.list li{
+    display: flex;
+     padding-left: 1rem;
+     gap: 1rem;
+}
+.Counts
+{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-left:1.7rem ;
+    margin-right:1.7rem ;
+}
+.smallCards{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 1.8rem;
+
+}
+.smallCards h3{
+    font-size: 3rem;
+    color: rgb(57, 172, 57); 
+    font-weight: bold;
+}
+.smallCards h4{
+    font-size: 1.7rem;
+}
+@media (max-width: 768px)
+{
+    .picAndContent
+{
+    
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    /* gap:0.5rem; */
+    /* margin-top: 1rem; */
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-left: 0.5rem;  
+
+}
+.about
+{
+    
+    margin-left: 1.1rem;
+    margin-right:0.6rem;
+    margin-top: 10rem;
+     color: rgb(69, 68, 68);
+   
+    
+}
+.picAndContent .content
+{
+    
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+    color: rgb(69, 68, 68);
+    box-sizing: content-box;
+    border: 1px solid white;
+    padding: 0;
+    padding-right: 0.6rem;
+}
+.picAndContent .content h3
+{
+    font-size: 3rem;
+    
+}
+.content p{
+    font-size: 1.8rem;
+   
+}
+.picAndContent .pic{
+    overflow: hidden;
+  margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    object-fit: cover;
+    box-sizing: border-box;
+ height: 500px;
+ max-width: 1000px;
+ border-radius: 1rem;
+}
+.Counts
+{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6rem;
+    margin-left:1.7rem ;
+    margin-right:1.7rem ;
+}
+}

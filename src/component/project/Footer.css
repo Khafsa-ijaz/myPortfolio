@@ -1,0 +1,64 @@
+.footer {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 5rem;
+  margin-top: 80%;
+  /* font-size: 1.7rem; */
+}
+.address h2{
+font-size: 2.3rem;
+font-weight: bold;
+}
+.address .content h3{
+    font-size: 1.4rem;
+}
+.links h2{
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.social-links 
+{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+     font-size: 2.5rem;
+}
+.follow h2
+{
+font-size: 2.3rem;
+  font-weight: bold;
+}
+.social-links a:hover{
+    color: blue;
+}
+.content
+{
+    padding:1rem;
+}
+.copy
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+@media(max-width: 768px)
+{
+ .footer{
+    flex-direction: column;
+ }
+.social-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 1rem;
+     font-size: 2rem;
+
+}
+}

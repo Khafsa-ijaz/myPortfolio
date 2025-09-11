@@ -1,0 +1,51 @@
+body{
+    height: 105hv;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.toggle-switch{
+    width: 100px;
+    height: 55px;
+    border-radius: 30px;
+    background-color:#ccc;
+    position: relative;
+    cursor: pointer;
+    padding: 4px;
+    margin-top: 5rem;
+    box-shadow: black;
+}
+.switch{
+     width: 45px;
+    height: 45px;
+    border-radius: 9820px;
+    background-color: rgb(148, 166, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+     font-weight: bold;
+      top: 5px;
+      left: 5px;
+       justify-content: center;
+       transition: transform 0.3s linear, background-color 0.3 linear;
+border: 0.2rem solid #ccc;
+box-shadow: rgba(100, 100, 111,0.2) 0px 7px 29px 0px;
+}
+.switch-state{
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.on{
+    background-color: #4caf50;
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+}
+
+.off{
+    background-color: #f44336;
+    transform: translateX(0px);
+}

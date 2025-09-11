@@ -1,0 +1,119 @@
+/* *** */
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ :root{
+  --button-hover: #003b99;
+  --bg-color: #ffffff;
+  --btn-color: black;
+
+ }
+  
+/* header */
+header{
+    position:relative;
+    width: 100%;
+    justify-content: right;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(238, 234, 234);
+    /* box-shadow: inset black; */
+    height: 7rem;
+    padding: 2rem;
+     
+}
+nav ul{
+    display: flex;
+    list-style: none;
+   gap:3rem;
+   font-size: 2rem;
+   justify-content: right;
+   
+}
+nav ul li{
+    margin-right: 2rem;
+}
+nav ul button{
+    margin-right: 2rem;
+    background-color: green;
+    color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 8px;
+    font-size: 2rem;
+}
+nav ul button:hover{
+    background-color: rgb(99, 184, 99);
+}
+li:hover{
+    text-decoration: underline;
+     color: rgb(96, 96, 72);
+}
+.dropdown
+{
+    cursor: pointer;
+    position: relative;
+    
+}
+.dropdown a{
+ display: flex;
+}
+.menu
+{
+    position: absolute;
+    background-color: rgb(244, 244, 244);
+    left:0;
+    top: 100%;
+    list-style: none;
+     padding: 10px;
+   margin: 0;
+  border: 1px solid #ddd;
+  display: none;
+  color: black;
+}
+.dropdown:hover .menu{
+    display: block;
+   
+}
+ .menu li:hover{
+ text-decoration: none;
+ 
+}
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: column;
+  }
+  nav ul
+  {
+     display: none;
+    list-style: none;
+   gap:3rem;
+   font-size: 2rem;
+   flex-direction: column;
+   background-color: #eaecef;
+   width: 60%;
+   position: absolute;   /* take out of normal flow */
+  top: 7rem;            /* start just below your header */
+  left: 0;             /* align to right */
+  z-index: 1000;        /* stay on top of everything */
+  padding: 2rem;
+  }
+  nav ul.mob-main-menu
+  {
+    display:flex;
+    
+  }
+  .mobile-menu
+  {
+    display: block;
+    /* justify-content: right; */
+  }
+
+ 
+}

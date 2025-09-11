@@ -1,0 +1,58 @@
+.callToAction
+{
+    background-color: rgb(71, 184, 88);
+      margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 2rem;
+    color: rgb(248, 233, 233);
+    align-items: center;
+     padding: 8rem;
+}
+.callToAction h2{
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+.callToAction p{
+    font-size: 1.7rem;
+    margin-left: 3rem;
+   
+}
+.callToAction button{
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+    padding-top: 1.5rem;
+     padding-bottom: 1.5rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    color: rgb(248, 233, 233);
+}
+.callContent
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    text-align: center;
+}
+@media (max-width:768px)
+{
+
+    .callToAction
+{
+   padding-bottom: 7rem;
+   padding-bottom: 7rem;
+     padding-left: 1.8rem;
+     padding-right: 1.8rem;
+}
+.callToAction p{
+    font-size: 1.7rem;
+    margin-left: 0.3rem;
+   
+}
+
+}

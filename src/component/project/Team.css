@@ -1,0 +1,152 @@
+.team{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(84, 83, 83);
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+}
+.teamContent
+{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+}
+.teamContent h3{
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+.teamContent p{
+    font-size: 1.5rem;
+   text-align: center;
+}
+.teamCardmain
+{
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.teamCard img{
+object-fit: fill;
+  height: 380px;
+  width: 390px;
+}
+.teamCard {
+  position: relative;   
+  width: 390px;        
+   overflow: visible;
+}
+.teamInfo
+{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -60px;
+  left: 0;
+  width: 95%;
+  padding: 0.3rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-left: 1rem;
+   box-shadow: 0 4px 15px rgba(191, 189, 189, 0.422);
+  
+}
+.teamInfo h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.teamInfo h4{
+    font-size: 1.4rem;
+    font-style: italic;
+    padding: 1rem;
+    
+}
+.socialLinks
+{
+    display: flex;
+    margin-top: 1.1rem;
+}
+.social
+{
+    display: flex;
+    gap: 7rem;
+    
+}
+.teamInfo hr{
+    border: none;
+  height: 0.5px;
+  width: 70px;         
+  background: rgb(152, 158, 152);
+    
+  border-radius: 5px;
+    
+}
+/* Mobile & Tablet view */
+@media (max-width: 768px) {
+  .team {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 8rem;
+  }
+
+  .teamContent h3 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .teamContent p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  .teamCardmain {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .teamCard {
+    width: 100%; 
+    max-width: 350px; 
+  }
+
+  .teamCard img {
+    width: 100%;
+    height: auto; 
+  }
+
+  .teamInfo {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%); 
+    bottom: -40px; 
+    padding: 1rem;
+    margin-left: 0;
+  }
+
+  .teamInfo h3 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .teamInfo h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+    gap: 2rem; /* chhoti gap */
+    flex-direction: column; /* mobile pe neeche neeche */
+    align-items: center;
+  }
+
+  .socialLinks {
+    justify-content: center;
+    gap: 1rem;
+  }
+}

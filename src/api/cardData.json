@@ -1,0 +1,70 @@
+[
+    {
+    "name":"Drilis Ertugul",
+    "id":"D_E",
+    "img_url":"http://localhost:5173/images/DE.png",
+    "rating":"9.2",
+    "descrption":", Ertuğrul and Osman I, had made war at the head of the armed vassals and volunteers.  or piyade.[8] They were divided into tens, hundreds, and thousands with their commanders",
+    "cast":"Engin Altan Düzyatan,",
+    "genere":"Historical",
+    "watch_url":"https://www.youtube.com/watch?v=5fJXATpIiUQ&list=PLcb3cRuE-VFgH6tX-d4Qb9Rf2TREtMS_H"
+},
+    {
+        
+    "name":"krulus osman",
+    "id":"k_s",
+    "img_url":"http://localhost:5173/images/ks.png",
+    "rating":"8.8",
+    "descrption":"A series of civil wars surrounding the ascension of the nine-year-old Byzantine emperor John V Palaiologos greatly benefited Orhan.[citation needed] In the Byzantine civil war of 1341–1347, the regent John VI",
+    "cast":"Burak Özçivit;",
+    "genere":"Historical",
+    "watch_url":"https://www.youtube.com/watch?v=5fJXATpIiUQ&list=PLcb3cRuE-VFgH6tX-d4Qb9Rf2TREtMS_H"
+},
+
+{
+    "name":"Orhan GHazi",
+    "id":"O_G",
+    "img_url":"http://localhost:5173/images/or.png",
+    "rating":"8.6",
+    "descrption":"In the early stages of his reign, Orhan focused his energies on conquering most of northwestern Anatolia. The majority of these areas were under Byzantine rule and he won his first battle at Pelekanon against the Byzantine Emperor Andronikos III Palaiologos.",
+    "cast":"Emre Bey",
+    "genere":"Historical",
+    "watch_url":"https://www.youtube.com/watch?v=5fJXATpIiUQ&list=PLcb3cRuE-VFgH6tX-d4Qb9Rf2TREtMS_H"
+}
+,
+
+    {
+    "name":"Muhtesim",
+    "id":"mu",
+    "img_url":"http://localhost:5173/images/Mu.png",
+    "rating":"9.2",
+    "descrption":", Ertuğrul and Osman I, had made war at the head of the armed vassals and volunteers. This army ro constant readiness for service. Theor piyade.[8] Ts",
+    "cast":"Engin Altan Düzyatan,",
+    "genere":"Historical",
+    "watch_url":"https://www.youtube.com/watch?v=5fJXATpIiUQ&list=PLcb3cRuE-VFgH6tX-d4Qb9Rf2TREtMS_H"
+},
+    {
+        
+    "name":"The Great Saljok",
+    "id":"s_k",
+    "img_url":"http://localhost:5173/images/sk.png",
+    "rating":"8.3",
+    "descrption":"A series of civil wars surrounding the ascension of the nine-year-old Byzantine emperor John V Palaiologos greatly benefited Orhan.[citation needed] In the Byzantine civil war of 1341–1347, the regent John VI",
+    "cast":"Burak Özçivit;",
+    "genere":"Historical",
+    "watch_url":"https://www.youtube.com/watch?v=5fJXATpIiUQ&list=PLcb3cRuE-VFgH6tX-d4Qb9Rf2TREtMS_H"
+},
+
+{
+    "name":"SlhUdin Ayyubi",
+    "id":"Sl",
+    "img_url":"http://localhost:5173/images/Sl.png",
+    "rating":"8.6",
+    "descrption":"In the early stages of his reign, Orhan focused his energies on conquering most of northwestern Anatolia. The majority of these areas were under Byzantine rule and he won his first battle at Pelekanon against the Byzantine Emperor Andronikos III Palaiologos. ",
+    "cast":"Emre Bey",
+    "genere":"Historical",
+    "watch_url":"https://www.youtube.com/watch?v=5fJXATpIiUQ&list=PLcb3cRuE-VFgH6tX-d4Qb9Rf2TREtMS_H"
+}
+
+
+]
