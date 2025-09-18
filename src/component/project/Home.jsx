@@ -32,7 +32,7 @@ export function Home()
                 <a>Watch Video</a></div></div>
             </div>
             <div className="picture">
-               <img src="/images/web.PNG" alt="Web developer" />
+               <img src="./images/web.PNG" alt="Web developer" />
             </div>
         </div>
         <div className="home-sub">

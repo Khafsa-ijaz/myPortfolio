@@ -104,7 +104,7 @@ li:hover{
   z-index: 1000;        /* stay on top of everything */
   padding: 2rem;
   }
-  nav ul.mob-main-menu
+  nav ul.navMenu
   {
     display:flex;
     

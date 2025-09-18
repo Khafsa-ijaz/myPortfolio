@@ -1,0 +1,83 @@
+.certificates {
+  background-color: rgb(18, 43, 43);
+  padding: 1.3rem;    
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subCerti
+{
+    
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.certiCard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certiCard img{
+    height: 200px;
+}
+.perContent
+{
+ display: flex;
+ flex-direction: column;
+ gap: 0.7rem;
+}
+.perContent h3{
+    color: rgb(208, 160, 35);
+    font-size: 1.9rem;
+}
+.perContent h2{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.perContent p{
+    color: rgb(255, 255, 255);
+    font-size:1.2rem;
+}
+.cerContent
+{
+    margin-top:1rem;
+}
+.cerContent h2
+{
+ font-size: 1.7rem;
+}
+.cerContent h3
+{
+ font-size: 2rem;
+}
+
+@media (max-width:768px)
+{
+
+    .subCerti
+{
+    grid-template-columns: repeat(1,1fr);
+   padding: 1rem;
+   gap:2rem;
+}
+.certiCard img{
+    height: 100px;
+}
+.perContent h3{
+    color: rgb(208, 160, 35);
+    font-size: 1.4rem;
+}
+.perContent h2{
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+.perContent p{
+    color: rgb(255, 255, 255);
+    font-size:0.9rem;
+}
+}

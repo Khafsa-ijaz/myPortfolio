@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.about
+{
+    margin-top: 9rem;
+    background-color: rgb(16, 37, 37);
+    color: white;
+    max-height: 400px;
+}
+.aboutCard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+img{
+    height: 300px;
+}
+.aboutCard .content h2
+{
+    font-size: 1.5rem;
+}
+.aboutCard .content h3
+{
+    font-size: 2.5rem;
+}
+.aboutCard .content p
+{
+    font-size: 1.3rem;
+}
+.about .content
+{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ padding-left: 3rem;
+ padding-right: 3rem;
+ justify-content: center;
+}
+hr{
+    width: 20px;
+    color:rgb(208, 160, 35) ;
+}
+.cv
+{
+    display: flex;
+    background-color:rgb(208, 160, 35) ;
+    box-sizing: border-box;
+    border: 1px solid rgb(208, 160, 35) ;
+    border-radius: 40px;
+    gap:1.6rem;
+    align-items: center;
+    width: 100%;
+    margin-right: 0.5rem;
+    
+}
+
+button
+{
+    background-color:rgb(16, 37, 37) ;
+    border: 1px solid rgb(16, 37, 37);
+    color: white;
+    padding: 1rem;
+    border-radius: 40px;
+}
+a{
+    text-decoration: none;
+}
+.cvMain
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.cvMain h4 {
+  font-family: 'Great Vibes', cursive;
+  color: rgb(208, 160, 35); 
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-style: normal; /* italic ki zaroorat nahi, font already stylish hoga */
+}
+@media (max-width:768px)
+{
+    .aboutCard
+{
+   flex-direction: column;
+   
+}
+.about{
+    max-height: 800px;
+    width: 100%;
+}
+.about .content
+{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ margin-left: 1.2rem;
+ margin-right: 1.2rem;
+ 
+}
+.cv
+{
+    width: 100%;
+}
+.cvMain
+{
+    display: flex;
+  flex-direction: column;
+    gap: 2rem;
+}
+}

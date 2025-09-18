@@ -1,0 +1,128 @@
+.skills {
+  padding: 30px;
+  /* max-width: 600px;
+  margin: auto; */
+  box-sizing: border-box;
+  border: 1.2px solid rgb(208, 160, 35) ;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+   border-bottom-right-radius: 2rem;
+  background-color: rgb(16, 37, 37);
+  margin-top: 9rem;
+}
+.subSkills
+{
+    margin-left: 8rem;
+     margin-right: 8rem;
+}
+.subcontent
+{
+ display: flex;
+ flex-direction: column;
+ color: white;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 2rem;
+ 
+}
+.subcontent p{
+  font-size: 1.4rem;
+}
+.skills h2 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  color: white;
+ 
+}
+.skillBar
+{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+margin-top: 4rem;
+    
+}
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.progress-bar {
+  background: #e5e5e5;
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #d6a941, #c48a00);
+  width: 0;
+  transition: width 0.6s ease;
+  border-radius: 999px;
+}
+.line-with-circle {
+    margin-top: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line1 {
+            
+  border: none;
+ margin-left: 2%;
+ margin-right: 2%;
+  height: 1.5px;    
+  width: 30%;       
+  background-color: rgb(16, 37, 37);
+}
+.line2 {
+            
+  border: none;
+ margin-left: 2%;
+ margin-right: 2%;
+  height: 1.5px;    
+  width: 30%;       
+  background-color: rgb(16, 37, 37);
+}
+.circlemid {
+  width: 20px;
+  height: 20px;
+  border-radius: 30%;
+  background-color: goldenrod; 
+  margin: 0 0px; 
+}
+.progress-fill {
+  height: 100%;
+  background-color: goldenrod;
+  border-radius: 10px;
+  transition: width 6s ease; /* smooth animation */
+}
+.circlemid:hover {
+  box-shadow: 0 0 0 15px rgba(241, 183, 39, 0.66); /* outer circle */
+}
+@media(max-width:768px)
+{
+.skillBar
+{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+margin-top: 4rem;
+    
+}
+.subSkills
+{
+    margin-left: 1rem;
+     margin-right: 1rem;
+}
+}

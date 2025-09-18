@@ -1,0 +1,37 @@
+.line-with-circle {
+    margin-top: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line1 {
+            
+  border: none;
+ margin-left: 2%;
+ margin-right: 2%;
+  height: 1.5px;    
+  width: 30%;       
+  background-color: rgb(16, 37, 37);
+}
+.line2 {
+            
+  border: none;
+ margin-left: 2%;
+ margin-right: 2%;
+  height: 1.5px;    
+  width: 30%;       
+  background-color: rgb(16, 37, 37);
+}
+.circlemid1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: goldenrod; 
+  margin: 0 0px; 
+}
+.cirlediv
+{
+    display: flex;
+    gap: 0.3rem;
+}

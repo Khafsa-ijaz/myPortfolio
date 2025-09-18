@@ -1,0 +1,229 @@
+
+.main
+{
+    color: aliceblue;
+ position: relative;
+background-color: rgb(16, 37, 37);
+  max-height: 560px;
+  box-sizing: border-box;
+  border: 1px solid  rgb(16, 37, 37);
+  border-bottom-left-radius: 3rem;
+  border-bottom-Right-radius: 3rem;
+   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); 
+  position: relative;
+  z-index: 1;
+}
+.nav h2{
+    font-size: 3rem;
+}
+.bg{
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.header nav{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1.6rem;
+}
+.nav ul{
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.circle
+{
+    /* #102525 */
+    background-color: rgb(16, 37, 37);
+    height: 13rem;
+    width: 13rem;
+    border-radius: 5.5rem;
+    margin-left: 46%; 
+    position: relative;
+   bottom: 13rem; 
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2); 
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: end;
+}
+.bg .content
+{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    gap:6rem;
+    padding: 3rem;
+}
+.intro h3
+{
+  font-size: 3rem; 
+}
+.intro .paragraph
+{
+    box-sizing: border-box;
+    border-left: 3px solid rgb(255, 251, 251);
+   display: inline-flex;
+   padding-left: 0.5rem;
+   font-size: 1.5rem;
+   margin-top: 1rem;
+}
+.content img{
+    object-fit: fill;
+    width:100%;
+    height: 400px;
+    margin-right: 7rem;
+}
+.imgCircle
+{
+background-color: rgb(18, 43, 43);
+ padding: 2rem;
+ border-radius: 50%;
+ overflow: hidden;
+ align-items: end;
+}
+.ranking
+{
+    margin-top: 1rem;
+    display: flex;
+}
+.vertical-line {
+  border-left: 2px solid white;
+  height: 50px;   
+  margin: 11px;  
+}
+.buttons
+{
+    gap: 1.5rem;
+    display: flex;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: rgba(165, 42, 42, 0);
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+ .buttons button
+ {
+    padding: 1rem;
+    border-radius: 5rem;
+ }
+ .watchNow
+ {
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .nav ul li a:hover {
+  color: rgb(208, 160, 35);  /* hover color */
+}
+ .mobile-nav
+ {
+    display: none;
+ }
+.typed-cursor {
+  color: rgb(208, 160, 35);
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+ @media (max-width:768px)
+ {
+  
+.main
+{
+
+  max-height: 800px;
+ 
+}
+.nav h2{
+    font-size: 3.4rem;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.nav ul
+{
+ display: none;
+}
+.circle
+{
+  display: none;
+}
+.bg .content
+{
+      display: flex;
+      flex-direction: column-reverse;
+    margin-top: 2rem;
+    justify-content: space-between;
+    gap:2rem;
+    padding: 1rem;
+}
+.intro h3
+{
+  font-size: 2rem; 
+}
+.content img{
+  margin-top: 1rem;
+    object-fit:cover;
+    width:100%;
+    height: 190px;
+    
+}
+.imgCircle
+{
+background-color: rgb(18, 43, 43);
+ padding-top: 0.9rem;
+ width: 55%;
+ border-radius: 50%;
+ /* overflow: hidden; */
+ align-items: center;
+  margin-left: 6rem;
+}
+ .mobile-nav
+ {
+  display: block;
+  margin-left: 94%;
+  margin-top: 1rem;
+ }
+  nav ul.navMenu
+  {
+    display:flex;
+    
+  }
+   nav ul
+  {
+    
+     display: none;
+    list-style: none;
+   gap:3rem;
+   font-size: 2rem;
+   flex-direction: column;
+   background-color:  rgb(16, 37, 37);
+   width: 50%;
+   position: absolute;   /* take out of normal flow */
+  top: 4rem;            /* start just below your header */
+ right: 0;             /* align to right */
+  z-index: 100;        /* stay on top of everything */
+  padding: 1rem;
+  }
+    nav {
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: column;
+  }
+ }
