@@ -1,15 +1,16 @@
 
 // import {Home} from "./component/project/Home";
  
-import { Main } from "./component/porfolio/Main";
+// import { Main } from "./component/porfolio/Main";
+  import { Main } from "./component/practice/main";
 
  const App=() =>
  {
     return(
       <>
-      <Main/>
+      {/* <Main/> */}
       {/* <Home/> */}
-      
+      <Main/>
       </>
      
     );

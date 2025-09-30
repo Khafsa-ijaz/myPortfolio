@@ -12,7 +12,7 @@
 // // https://vitejs.dev/config/
 // export default defineConfig({
 //   plugins: [react()],
-//   base: '/website-port/',  // 👈 yahan sirf repo ka naam
+//   base: '/website-port/',  // 
 // })
 
 import { defineConfig } from 'vite'
