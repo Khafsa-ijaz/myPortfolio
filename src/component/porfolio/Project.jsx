@@ -12,31 +12,31 @@ export  function Project() {
   const array =[
     {
  vid:"./images/vid.mp4",
-    heading:"Expert Customs Clearance",
-    para:"Professional documentation and regulatory compliance services",
+    heading:"Practice Frontend Theme",
+    para:"Tried something new!Created a practice frontend theme to experiment with colors, layouts, and transitions",
     b1:"./images/vid.mp4",
     b2:"https://khafsa-ijaz.github.io/website-port/"
     },
      {
- vid:"./images/vid.mp4",
-    heading:"Expert Customs Clearance",
-    para:"Professional documentation and regulatory compliance services",
-    b1:"./images/vid.mp4",
-    b2:"https://khafsa-ijaz.github.io/website-port/"
+ vid:"./images/Quizz.mp4",
+    heading:"Quizz App/Website",
+    para:"Real-time score, remarks & global state management Practiced Redux Store and clean component structure",
+    b1:"./images/Quizz.mp4",
+    b2:"https://quiz-appnew-2uqa.vercel.app/"
     },
      {
- vid:"./images/vid.mp4",
-    heading:"Expert Customs Clearance",
-    para:"Professional documentation and regulatory compliance services",
-    b1:"./images/vid.mp4",
-    b2:"https://khafsa-ijaz.github.io/website-port/"
+ vid:"./images/fav.mp4",
+    heading:"Favorites Website",
+    para:"A React-based UI to add items to favorites and filter between All / Favorites.",
+    b1:"./images/fav.mp4",
+    b2:"./images/fav.mp4"
     },
      {
- vid:"./images/vid.mp4",
-    heading:"Expert Customs Clearance",
-    para:"Professional documentation and regulatory compliance services",
-    b1:"./images/vid.mp4",
-    b2:"https://khafsa-ijaz.github.io/website-port/"
+ vid:"./images/portfolio.mp4",
+    heading:"personal portfolio website",
+    para:"Focused on a smooth user experience and a modern design that truly represents me as a frontend developer",
+    b1:"./images/portfolio.mp4",
+    b2:"https://my-portfolio-i4sr.vercel.app/"
     }
    
   ]
