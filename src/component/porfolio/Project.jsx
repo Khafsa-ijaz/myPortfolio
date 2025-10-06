@@ -7,7 +7,6 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 // import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 import "./Project.css";
-
 export  function Project() {
   const array =[
     {
